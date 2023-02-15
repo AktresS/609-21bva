@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #000;
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -61,14 +62,14 @@ p{
     line-height: 16px;
 }
 
-.item:hover{
-    display: flex;   
-    justify-content: center;
-    align-items: center;
-    padding: 7px 12px;
-    background: #B4B1B1;
-    border-radius: 0px 6px;
-}  
+/*.item:hover{*/
+/*    display: flex;   */
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 7px 12px;*/
+/*    background: #B4B1B1;*/
+/*    border-radius: 0px 6px;*/
+/*}  */
 
 .menu li{
     margin-right: 32px;
