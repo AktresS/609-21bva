@@ -1,0 +1,486 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url('../img/pict/home.png') no-repeat center top / cover;
+    padding-top: 41px;
+    color:#2D253D;
+    padding-bottom: 246px;
+}
+
+header a{
+    color:#2D253D;
+}
+
+p{
+    margin: 0;
+}
+
+.logo{
+    margin-right: 235px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.045em;
+    line-height: 16px;
+}
+
+.item:hover{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    background: #B4B1B1;
+    border-radius: 0px 6px;
+}  
+
+.menu li{
+    margin-right: 32px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 36px;
+    gap: 20px;
+    background: rgba(217, 217, 217, 0.32);
+    border-radius: 70px;
+    margin-left: auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.offer{
+    margin-top: 169px;
+}
+
+.offer h1{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0.19em;
+    width: 312px;
+    height: 65px;
+    margin-left: 738px;
+    margin-bottom: 11px;
+}
+
+.offer p{
+    margin-left: 662px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    width: 455px;
+    height: 113px;
+}
+
+.container2{
+    width: 100%;
+    height: 349px;
+    background: rgba(197, 195, 209, 0.51);
+}
+
+.container3{    
+    width: 100%;
+    height: 718px;
+    margin: 0 auto;
+    background: rgba(195, 195, 207, 0.69);
+}
+
+.container4{
+    width: 100%;
+    height: 742px;
+    margin: 0 auto;
+    background: rgba(226, 224, 232, 0.47);
+}
+
+.container5{
+    width: 1120px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 209px;
+}
+
+.block_news{
+    padding: 0;
+    background: rgba(100, 69, 104, 0.1);
+    border-radius: 20px;
+    margin-top: 89px;
+}
+
+.news p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.045em;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 29px;
+    padding-top: 12.02px;
+    color: #2D253D;
+}
+
+.news img{
+    padding-left: 53px;
+    padding-top: 29px;
+}
+
+.block_stock{
+    padding: 0;
+    background: rgba(134, 62, 62, 0.23);
+    border-radius: 20px;
+    margin-top: 89px;
+}
+
+.stock p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.045em;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 29px;
+    padding-top: 16.85px;
+    color: #472631;
+}
+
+.stock img{
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-top: 29px;
+}
+
+.block_bonus{
+    padding: 0;
+    background: rgba(96, 136, 56, 0.23);
+    border-radius: 20px;
+    margin-top: 89px;
+}
+
+.bonus p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.045em;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 29px;
+    padding-top: 7.07px;
+    color: #28441C;
+}
+
+.bonus img{
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-top: 29px;
+}
+
+.text h2{
+    margin-top: 281px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: 0.06em;
+    color: #2A2238;
+    margin-bottom: 16px;
+}
+
+.text p{
+    width: 461px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #2D253D;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;    
+}
+
+
+.register_form_container{
+    width: 536px;
+    height: 638px;
+    background: #E2E0E8;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.box_form{
+    padding-top: 67px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.subtitles{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.045em;
+    color: #2D253D;
+}
+
+.checkbox__label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.045em;
+    color: #2D253D;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.form-fields{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.pole{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 59px;
+}
+
+.user{
+    width: 200px;
+    height: 39px;
+    border: 1px solid #EEEDF2;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 14px;
+}
+
+input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: rgba(45, 37, 61, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.email{
+    width: 466px;
+    height: 39px;
+    border: 1px solid #EEEDF2;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 14px;
+}
+
+.password{
+    width: 466px;
+    height: 39px;
+    border: 1px solid #EEEDF2;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 14px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_input{
+    margin: 0;
+    width: 19px;
+    height: 19px;
+    border-radius: 10px;
+    background: #EEEDF2;
+}
+
+.button{
+    width: 288px;
+    height: 50px;
+    background: rgba(100, 69, 104, 0.55);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 93px;
+    margin-top: 35px;
+}
+
+.button a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    padding: 13.5px 32.5px;
+    color: #FCFCFC;
+}
+
+.block_aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 155px;
+    padding-top: 138px;
+    padding-bottom: 138px;
+}
+
+.container4 h2{
+    position: absolute;
+    padding-top: 54px;
+    padding-left: 150px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: 0.06em;
+    color: #2D253D;
+    width: 154px;
+    height: 49px;
+}
+
+.block_aboutus img{
+    width: 351px;
+    height: 466px;
+}
+
+.block_aboutus p{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+    width: 553px;
+    height: 466px;
+    color: #2D253D;
+}
+
+/*FOOTER*/
+
+.footer{
+    padding-top: 49px;
+    color:#fff;
+    padding-left: 80px;
+    background: #2F273D;
+    height: 360px;
+    margin: 0 auto;
+}
+
+
+.footer_logo{
+    width: 85px;
+    height: 37px;
+    position: absolute;
+}
+
+.block_dop{
+    display: flex;
+}
+
+.footer_aboutus{
+    width: 360px;
+    height: 145px;
+    display: block;
+}
+
+.footer_aboutus h4{
+    position: absolute;
+    margin-top: 75px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    width: 128px;
+    height: 29px;
+}
+
+.footer_aboutus p{
+    position: absolute;
+    width: 360px;
+    height: 108px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    margin-top: 112px;
+}
+
+.footer_nav{
+    display: block;
+    margin-left: 156px;
+    margin-top: 8px;
+}
+
+.text_menu{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin-bottom: 27px;
+}
+
+.footer_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 12px;
+}
+
+.footer_item a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+}
